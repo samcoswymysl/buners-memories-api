@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node dist/server.js"
+    "start": "node dist/server.js",
+    "start:dev": "tsnd server.js",
+    "build": "tsc"
   },
   "author": "",
   "license": "ISC",
